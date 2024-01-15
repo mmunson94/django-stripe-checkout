@@ -120,7 +120,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [BASE_DIR / 'static']
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51OYvDBIq1Xlensz5DmFcfSTBZKtHAZ4fQcb22p3acjL2Hl5MTpqfAFybqiDrsLM1LbrqHa216WQhTQCToxmBWQdy00Xidc2BSw'
+STRIPE_SECRET_KEY = 'sk_test_51OYvDBIq1Xlensz5rIwFTqqOWW5eVFwroG8sYrc21rzmXoqXWeseNfBnu6I5t05tThxPXKz4jD7otYV7RRk3KLWN00H6zXC0nv'

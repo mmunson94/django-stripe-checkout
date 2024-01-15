@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,8 @@
     <title>Django + Stripe Checkout</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v6.4.0/js/all.js"></script>
+    <script src="https://js.stripe.com/v3"></script>
+    <script src="{% static 'main.js' %}"></script>
 </head>
 <body>
     <section class="section">
